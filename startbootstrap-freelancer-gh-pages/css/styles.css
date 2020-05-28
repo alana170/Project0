@@ -10,6 +10,14 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ #info{
+  font-size: 24px;
+  font: bold;
+  text-align: left;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10173,7 +10181,7 @@ h3 {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #ff0000;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
