@@ -11,6 +11,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+ #acimage{
+  align-items: center;
+  padding: 20px;
+ }
+
  #info{
   font-size: 24px;
   font: bold;
@@ -6103,17 +6108,17 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  background-color: #044c80 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: #044c80 !important;
 }
 
 .bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color: #c4022f !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
