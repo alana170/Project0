@@ -10,6 +10,14 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+
+ #toprow{
+  background-color: #212529;
+  color: white;
+  font-weight: bold;
+ }
+
  #gal{
   height: 300px;
   width: 200px;
@@ -1717,9 +1725,14 @@ pre code {
   width: 100%;
   margin-bottom: 1rem;
   color: #212529;
+  text-align: center;
+  align-content: center;
+  padding:50px;
 }
 .table th,
 .table td {
+  border-style: solid;
+  border-collapse: collapse;
   padding: 0.75rem;
   vertical-align: top;
   border-top: 0.125rem solid #dee2e6;
